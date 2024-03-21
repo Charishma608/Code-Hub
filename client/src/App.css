@@ -1,0 +1,124 @@
+/* App.css */
+body{
+  margin:0;
+  padding:0;
+  background-color: #DAC0A3;
+  text-align: center;
+ 
+}
+h1{
+  text-align: center;
+  
+  background-color:#0F2C59;
+  color:#fff;
+  margin-top:0;
+  padding:20px;
+}
+
+form{
+  margin-bottom:125px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+
+form{
+  margin-bottom:125px;
+  
+}
+
+.styled-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  font-size:17px;
+  margin-bottom: 5px;
+  color:#080303;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 50%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  
+  box-sizing: border-box;
+  border-radius:10%;
+}
+
+select {
+  appearance: none;
+  background-image: url('data:image/svg+xml;utf8,<svg fill="gray" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/></svg>');
+  background-repeat: no-repeat;
+  background-position-x: calc(100% - 10px);
+  background-position-y: 50%;
+  padding-right: 30px;
+}
+
+textarea {
+  height: 150px;
+}
+
+button[type="submit"] {
+  width: 20%;
+  padding: 12px;
+  background-color:#0F2C59;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: #254677;
+  color:#fff;
+}
+
+.link{
+  background-color:#0F2C59;
+  color:#fff;
+  padding:20px;  
+}
+
+.link {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.link a {
+  color: #EADBC8; /* Mid-range color for link text */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.link a:hover {
+  color: #DAC0A3; /* Slightly darker shade for hover */
+}
+
